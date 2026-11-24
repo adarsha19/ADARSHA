@@ -11,23 +11,25 @@
 <body>
 <nav class="navigation">
   <div class="right">
+    <a href="index.html">
     ADARSHA SHAHI THAKURI
+  </a>
   </div>
   <div class="left">
     <div>
-    ACADEMICS
+    <a href="academics.html">ACADEMICS</a>
     </div>
     <div>
-    CRAFTS
+    <a href="crafts.html">CRAFTS</a>
     </div>
     <button>
-    ABOUT
+    <a href="resume.html">ABOUT</a>
     </button>
     <button>
-    SOCIALS
+    <a href="socials.html">SOCIALS</a>
     </button>
     <button>
-    RESUME
+    <a href="resume.html">RESUME</a>
     </button>
   </div>
 
@@ -42,30 +44,45 @@
 <tr>
   <td>
 <div>
-<img src="images/postgres.svg" alt="postgressql">
+<img class="postgressimg" src="images/postgres.svg" alt="postgressql">
+<span class="postgres">
+  PostgreSQL
+</span>
 </div>
 <div>
-<img src="images/javascript.svg" alt="javascript">
-</div>
-</td>
-</tr>
-<tr>
-  <td>
-<div>
-<img src="images/pythonlogo.svg" alt="python">
-</div>
-<div>
-<img src="images/html.svg" alt="HTML">
+<img class="jscrpt" src="images/javascript.svg" alt="javascript">
+<span class="jscrpttxt">
+  JavaScript
+</span>
 </div>
 </td>
 </tr>
 <tr>
   <td>
 <div>
-<img src="images/fastapi.svg" alt="fastApi" width="100px" height="20px">
+<img class="python_img"  src="images/pythonlogo.svg" alt="python">
+<span class="python">
+Python
+</span>
 </div>
 <div>
-<img src="images/numpy.svg" alt="NUMPY">
+<img class="htmll" src="images/html.svg" alt="HTML">
+<span class="htmltxt">
+  HTML
+</span>
+</div>
+</td>
+</tr>
+<tr>
+  <td class="lst">
+<div>
+<img class="fastapi" src="images/fastapi.svg" alt="fastApi" width="100px" height="20px">
+</div>
+<div>
+<img class="numpy_img" src="images/numpy.svg" alt="NUMPY">
+<span class="numpy">
+Numpy
+</span>
 </div>
 </td>
 </tr>
@@ -84,8 +101,12 @@
 </model-viewer>
 </div>
 <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.4.0/model-viewer.min.js"></script>
-<div>
 
+
+<div class="neural">
+<video autoplay loop muted playsinline>
+        <source src="assets/glownn.mp4" type="video/mp4"> 
+    </video>
 </div>
 </main>
 </body>

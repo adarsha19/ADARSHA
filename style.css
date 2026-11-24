@@ -1,4 +1,5 @@
 body{
+  cursor: pointer;
 background-color: #000000;
   background-image: linear-gradient(
     to bottom,
@@ -57,15 +58,13 @@ main{
 .avatar_container {
             max-width: 100%;
             height: 500px;
-            overflow: hidden;
-        }
-model-viewer {
-            width: 100%;
-            height: 100%;
-            background: transparent;
+            min-width:300px;
+            
         }
 .tech-stack{
-  margin-top: 40px;
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 20px;
 }
 .tech-stack div{
   color: white;
@@ -75,25 +74,176 @@ model-viewer {
 .heading{
   color:#ffffff;
   font-family: serif;
+  font-size: 15px;
 }
-table,tr,td{
+table{
+  z-index: 100;
   border:1px groove gray;
 
 }
+
 table {
-  width:70%;
+  opacity:0.4;
+  width:80%;
 }
 table div{
   justify-self: space-between;
 }
 
 td{
+
   display:flex;
   justify-content: space-around;
-  margin-bottom: 20px;
-  height:80px;
+  margin-bottom: 10px;
+  height:105px;
   align-items: center;
   
 
+}
+th{
+border-bottom: 1px groove white;
+}
+td{
+  border-bottom: 1px groove white;
+}
+
+td > div>img {
+  opacity: 0.6;
+  margin-top: 20px;
+  transition: opacity 0.2s ease;
+}
+
+td > div > img:hover {
+  opacity: 1;
+  filter: drop-shadow(0 0 100px rgba(0, 166, 255, 0.7));
+}
+
+table:hover {
+  opacity: 1;
+
+}
+td > div > .htmll:hover {
+  opacity: 1;
+  filter: drop-shadow(0 0 100px rgba(174, 83, 26, 0.7));
+}
+td > div > .fastapi:hover {
+  opacity: 1;
+  filter: drop-shadow(0 0 100px rgba(16, 179, 132, 0.7));
+}
+td > div > .jscrpt:hover {
+  opacity: 1;
+  filter: drop-shadow(0 0 100px rgba(211, 222, 13, 0.7));
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+model-viewer {
+            max-width:100%;
+            height: 500px;
+            min-width: 400px;
+            min-height: 500px;
+            background: transparent;
+        }
+
+.neural {
+    display: flex;
+    overflow: hidden;
+    align-items:center;
+    min-width:400px;
+    justify-content: center;
+}
+
+.neural video {
+    width: 100%;
+    height:100%;
+    transform: scaleY(1.6); 
+    mix-blend-mode: screen; 
+    pointer-events: none;
+    user-select: none;
+}
+span{
+display: block;
+margin-bottom: 10px;
+margin-top: 0;
+}
+
+.lst{
+  height:98px
+}
+.jscrpt{
+border-bottom: 1px groove yellow;
+}
+.jscrpttxt{
+border-bottom: 1px groove yellow;
+}
+.jscrpttxt:hover{
+color:yellow;
+}
+.htmltxt{
+border-bottom: 1px groove orangered;
+}
+.htmltxt:hover{
+color:orangered;
+}
+.python{
+border-bottom: 1px groove yellow;
+}
+.python:hover{
+color: yellow;
+}
+.numpy{
+ border-bottom: 1px groove rgb(0, 204, 255); 
+}
+.numpy:hover{
+  color: skyblue;
+}
+.postgres{
+  text-align: center;font-family: serif;border-bottom: 1px groove skyblue; 
+}
+.postgres:hover{
+  color:skyblue;
+}
+body:has(.postgressimg:hover,.numpy_img:hover){
+  background-image: linear-gradient(
+    to bottom,
+    #000000 40%,          
+    #73747580 75%,        
+    rgba(0, 191, 255, 0.25) 85%, 
+    rgba(0, 191, 255, 0.45) 90%,  
+    #e5e7eb99 100%        
+  );
+}
+body:has(.jscrpt:hover,.python_img:hover){
+  background-image: linear-gradient(
+    to bottom,
+    #000000 40%,          
+    #73747580 73%,       
+    rgba(255, 215, 0, 0.25) 85%, 
+    rgba(255, 215, 0, 0.45) 90%, 
+    #e5e7eb99 100%       
+  );
+}
+body:has(.fastapi:hover){
+  background-image: linear-gradient(
+    to bottom,
+    #000000 40%,          
+    #73747580 73%,        
+    rgba(0, 255, 128, 0.25) 85%, 
+    rgba(0, 255, 128, 0.45) 90%, 
+    #e5e7eb99 100%        
+  );
+}
+
+body:has(.htmll:hover){
+  background-image: linear-gradient(
+    to bottom,
+    #000000 40%,         
+    #73747580 73%,        
+    rgba(255, 69, 0, 0.3) 85%,
+    rgba(255, 69, 0, 0.5) 90%,
+      #e5e7eb99 100%  
+    );
 }
 

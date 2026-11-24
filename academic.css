@@ -1,0 +1,131 @@
+body{
+background-color: #000000;
+  box-sizing: border-box;
+  font-family:serif;
+}
+
+
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  position:relative;
+  padding-top:7px;
+  top:0;
+  padding-right: 50px;
+  color:white;
+  height:60px;
+}
+nav button{
+background-color: black;
+border:0.5px dotted rgb(255, 255, 255);
+border-radius: 3px;
+height:35px;
+width:80px;
+color:grey;
+font-family: serif;
+font-size:13px;
+
+}
+.academics{
+  color:burlywood;
+  border-bottom: 1px groove purple;
+}
+
+.right{
+  flex-grow: 2;
+  padding-left: 30px;
+  font-size: 15px;
+}
+.left{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color:gray;
+  flex-grow: 1;
+  font-size: 13px;
+  
+}
+th{
+  color:white;
+  height:30px;
+    font-size: 22px;
+}
+th, td {
+  
+  width:250px;
+  color:wheat;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+td{
+  color:#e5e7eb;
+  font-size:17px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+tr{
+  box-sizing: border-box;
+  text-align:left;
+  display: flex;
+  justify-content:space-evenly;
+  align-items:center;
+  height:50px;
+  border-bottom: 1px groove gray;
+  
+}
+table{
+  border-collapse: collapse;
+  color: white;
+  padding-top:20px;
+  width: 1000px;
+  border: 3px solid gray;
+  margin-top: 33px;
+  
+}
+th:last-child, td:last-child {
+  text-align:left;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+
+}
+
+.text-container{
+  display:flex;
+  justify-content: center;
+  background-color:black;
+
+  width:100%;
+
+}
+
+.Introduction{
+    width: 75%;
+    font-size: 30px;
+    color:aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin-top:-32px;
+}
+.graduation{
+  display:flex;
+  justify-content:center;
+  align-items:start;
+  width:100%;
+}
+.model{
+  width:100%;
+  height: 320px;
+}
+span{
+  color:gray;
+}
+td>a:hover{
+  color:skyblue;
+  filter: drop-shadow(0 0 15px rgba(20, 121, 184, 0.8));
+}
