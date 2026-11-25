@@ -7,7 +7,6 @@ background-color: #000000;
     #73747580 75%,   /* Smoothly blends into smoky gray by 72% (32% fade zone) */
     #e5e7eb99 100%   /* Gently brightens into soft mist at the very bottom */
   );
-  overflow: hidden;
   box-sizing: border-box;
   font-family:serif;
   height:100vh;
