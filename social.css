@@ -1,0 +1,140 @@
+body{
+  cursor: pointer;
+  overflow: hidden;
+background-color: #000000;
+  box-sizing: border-box;
+  font-family:serif;
+  height:100vh;
+}
+
+
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  position:relative;
+  padding-top:7px;
+  top:0;
+  padding-right: 50px;
+  color:white;
+  height:60px;
+}
+nav button{
+background-color: black;
+border:0.5px dotted rgb(255, 255, 255);
+border-radius: 3px;
+height:35px;
+width:80px;
+color:grey;
+font-family: serif;
+font-size:13px;
+
+}
+main{
+   margin-left: 80px;
+    height: 100%;
+
+}
+.right{
+  flex-grow: 2;
+  padding-left: 30px;
+  font-size: 15px;
+}
+.left{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color:gray;
+  flex-grow: 1;
+  font-size: 13px;
+  
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.social_btn{
+  color:burlywood;
+  border: 1px groove purple;
+}
+.let_txt{
+  color: aqua;
+  margin-bottom: 0px;
+}
+.below_let{
+  margin-top: 0px;
+  color:white;
+}
+.let_txt,.below_let{
+   font-size: 70px;
+  font-family:'Instrument Serif', serif;;
+}
+
+
+span{
+  color: gray;
+}
+.final{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 180px;
+}
+h1{
+  font-size: 20px;
+  color:gray;
+  font-family:'Instrument Serif', serif;
+}
+  
+.digital_section{
+    display:grid;
+    width:20%;
+    align-items: bottom;
+    grid-template-rows:repeat(3,35px);
+    color:white;
+    margin-right: 80px;
+  }
+  .github{
+    height:100%;
+    display: flex;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content: flex-end;
+    font-size:13px;
+  }
+
+  .github:hover{
+    color: aquamarine;
+    border-bottom: 1px groove aquamarine ;
+  }
+  .fnl_h1,.email_h1{
+  font-size:18px;
+  color:gray;
+  font-family:'Instrument Serif', serif;
+  display: flex;
+  flex-direction:row;
+  align-self: end;
+  justify-content: flex-end;
+  }
+ .email_h1{
+  margin-bottom: 0;
+  justify-content: flex-start;
+ }
+  .email_section{
+    height: 100%;
+    display: grid;
+    grid-template-rows:repeat(3,35px) ;
+  }
+  .mail_lnk{
+  color:burlywood;
+  font-size:18px;
+  font-family:'Instrument Serif', serif;
+  display: flex;
+  flex-direction:row;
+  justify-content: flex-start;
+  margin-top: 10px;
+    align-self: end;
+
+  }
+  .mail_lnk:hover{
+    filter: drop-shadow(0 0 10px gold );
+  }

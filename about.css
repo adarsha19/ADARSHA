@@ -1,0 +1,175 @@
+body{
+  cursor: pointer;
+  overflow-x: hidden;
+background-color: #000000;
+  box-sizing: border-box;
+  font-family:serif;
+  height:100vh;
+}
+
+
+nav{
+  display:flex;
+  justify-content: space-around;
+  align-items:center;
+  position:relative;
+  padding-top:7px;
+  top:0;
+  padding-right: 50px;
+  color:white;
+  height:60px;
+}
+nav button{
+background-color: black;
+border:0.5px dotted rgb(255, 255, 255);
+border-radius: 3px;
+height:35px;
+width:80px;
+color:grey;
+font-family: serif;
+font-size:13px;
+
+}
+main{
+  margin-left: 50px;
+
+  height: 100%;
+
+}
+.right{
+  flex-grow: 2;
+  padding-left: 30px;
+  font-size: 15px;
+}
+.left{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color:gray;
+  flex-grow: 1;
+  font-size: 13px;
+  
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.about_btn{
+  color:burlywood;
+  border: 1px groove purple;
+}
+.heading{
+  color:aliceblue;
+  color: aqua;
+}
+.Myself{
+margin-top: 100px;
+align-items: start;
+height:45%;
+padding-left: 40px; 
+display:flex;
+justify-content: space-between;
+background-color:black;
+border-left: none;
+width:100%;
+}
+.intro,.description,.describe{
+  padding-left:40px;
+  width:95%;
+  font-size: 20px;
+  font-weight: 500;
+  flex-grow: 1;
+  font-family:'Times New Roman';
+  color:whitesmoke;
+}
+.description{
+
+  flex-grow: 0;
+  width:65%;
+}
+.me{
+  
+  height:100%;
+  width:100%;
+  transform: scaleY(1.3);
+}
+.img{
+  align-self: top;
+  height: 90%;
+  width: 100%;
+  box-sizing: border-box;
+  flex-grow: 0;
+  mix-blend-mode: screen;
+  overflow: hidden;
+
+}
+.top_name{
+  height:100px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom:80px;
+}
+.dash{
+  font-weight: 0;
+  font-size: 40px;
+  color:aquamarine;
+  padding-left: 10px;
+}
+.dash1{
+width: 1px;
+font-weight: 100;
+font-size: 60px;
+color:chartreuse;
+}
+.about{
+  margin-bottom:15px;
+  color:gold;
+  font-size: 15px;
+}
+.frst_name{
+  color:white;
+  color: aqua;
+  display:block;
+}
+.lst_name{
+  color:gray;
+}
+.frst_name,.lst_name{
+  margin-top: -16px;
+  margin-left: 20px;
+  font-size: 50px;
+  font-family: 'Instrument Serif', serif;
+  font-weight: bolder;
+}
+
+.Tech-section{
+margin-top: 30px;
+align-items: start;
+height:45%;
+padding-left: 40px; 
+display:flex;
+font-family: var(--font-body);
+justify-content: space-between;
+background-color:black;
+border-left: none;
+}
+.do{
+  color:purple;
+}
+.off_screen{
+  color:burlywood;
+}
+.off-section{
+margin-top:5px;
+align-items: start;
+height:45%;
+padding-left: 40px; 
+display:flex;
+font-family: var(--font-body);
+justify-content: space-between;
+background-color:black;
+border-left: none;
+}
+.describe{
+  width:63%;
+}
